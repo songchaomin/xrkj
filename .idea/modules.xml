@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/item-parent/item-api/item-api.iml" filepath="$PROJECT_DIR$/item-parent/item-api/item-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-parent/item-parent.iml" filepath="$PROJECT_DIR$/item-parent/item-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-parent/item-service/item-service.iml" filepath="$PROJECT_DIR$/item-parent/item-service/item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-parent/order-api/order-api.iml" filepath="$PROJECT_DIR$/order-parent/order-api/order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-parent/order-parent.iml" filepath="$PROJECT_DIR$/order-parent/order-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-parent/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-parent/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-parent/system-api/system-api.iml" filepath="$PROJECT_DIR$/system-parent/system-api/system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-parent/system-parent.iml" filepath="$PROJECT_DIR$/system-parent/system-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-parent/system-service/system-service.iml" filepath="$PROJECT_DIR$/system-parent/system-service/system-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-backend/web.iml" filepath="$PROJECT_DIR$/web-backend/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-front/web-front.iml" filepath="$PROJECT_DIR$/web-front/web-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xrkj.iml" filepath="$PROJECT_DIR$/.idea/xrkj.iml" />
+    </modules>
+  </component>
+</project>

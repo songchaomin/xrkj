@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web" />
+        <module name="web-front" />
+        <module name="system-api" />
+        <module name="order-service" />
+        <module name="item-service" />
+        <module name="order-api" />
+        <module name="item-api" />
+        <module name="system-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="item-api" target="1.5" />
+      <module name="item-parent" target="1.5" />
+      <module name="item-service" target="1.5" />
+      <module name="order-api" target="1.8" />
+      <module name="order-parent" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="system-api" target="1.8" />
+      <module name="system-parent" target="1.8" />
+      <module name="system-service" target="1.8" />
+      <module name="web" target="1.7" />
+      <module name="web-front" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

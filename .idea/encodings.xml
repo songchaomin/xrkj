@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/item-parent" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/item-parent/item-api" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/item-parent/item-service" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/order-parent" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/order-parent/order-api" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/order-parent/order-service" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/system-parent" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/system-parent/system-api" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/system-parent/system-service" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web-backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-front" charset="UTF-8" />
+  </component>
+</project>

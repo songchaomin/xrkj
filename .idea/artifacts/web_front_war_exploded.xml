@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-front:war exploded">
+    <output-path>$PROJECT_DIR$/web-front/target/web-front</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>web-front</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-front" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web-front/target/web-front/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="web-front/web/Web" />
+    </root>
+  </artifact>
+</component>
