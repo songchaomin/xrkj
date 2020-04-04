@@ -12,10 +12,8 @@
        default-lazy-init="true">
 
     <!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
-    <context:component-scan base-package="cn.xrkj.*"/>
+    <context:component-scan base-package="cn.xrkj"/>
     <!--加载dubbo配置-->
-   <!-- <import resource="classpath*:/config/dubbo/dubbo-service.xml"></import>-->
-    <import resource="classpath*:/config/dubbo/dubbo-client.xml"></import>
-
+    <import resource="classpath*:/config/dubbo/dubbo-service.xml"></import>
 
 </beans>
