@@ -25,7 +25,7 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!-- 将该接口暴露到dubbo中 -->
-    <dubbo:service interface="cn.xrkj.service.OrderServices" ref="orderServicesImpl" />
+    <dubbo:service interface="cn.xrkj.controller.service.OrderServices" ref="orderServicesImpl" />
 
     <!-- 监控的配置 -->
     <dubbo:monitor protocol="registry"></dubbo:monitor>

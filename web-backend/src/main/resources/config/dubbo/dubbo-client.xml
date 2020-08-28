@@ -16,7 +16,7 @@
     http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 提供方应用信息，用于计算依赖关系 -->
-    <dubbo:application name="dubbo-item-client" owner="scm"/>
+    <dubbo:application name="web-backend" owner="scm"/>
 
     <!-- 这里使用的注册中心是zookeeper -->
     <dubbo:registry protocol="zookeeper" address="192.168.199.155:2181,192.168.199.156:2181,192.168.199.157:2181" client="zkclient"/>
@@ -25,6 +25,6 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!-- 将该接口暴露到dubbo中 -->
-    <dubbo:reference id="orderServices" interface="cn.xrkj.service.OrderServices"  />
+  <!--  <dubbo:reference id="orderServices" interface="OrderServices"  />-->
 
 </beans>

@@ -25,10 +25,10 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!-- 将该接口暴露到dubbo中 -->
-    <dubbo:service interface="cn.xrkj.service.OrderServices" ref="orderServiceImpl" />
+    <dubbo:service interface="OrderServices" ref="orderServiceImpl" />
 
     <!-- 将具体的实现类加入到Spring容器中 -->
-    <bean id="orderServiceImpl" class="cn.xrkj.services.impl.OrderServicesImpl" />
+    <bean id="orderServiceImpl" class="OrderServicesImpl" />
     <!-- 监控的配置 -->
     <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>
