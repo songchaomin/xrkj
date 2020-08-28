@@ -32,12 +32,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>cn.xrkj</groupId>
-      <artifactId>item-api</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-
 
     <dependency>
       <groupId>org.springframework</groupId>
@@ -128,11 +122,30 @@
       <version>2.8.8.1</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework.amqp</groupId>
+      <artifactId>spring-rabbit</artifactId>
+      <version>1.4.5.RELEASE</version>
+    </dependency>
 
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>log4j-over-slf4j</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jcl-over-slf4j</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
-    <finalName>web</finalName>
+    <finalName>web-backend</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
