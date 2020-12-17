@@ -1,6 +1,6 @@
-package cn.xrkj.service.impl;
+package cn.xrkj.controller.service.impl;
 
-import cn.xrkj.service.ItemService;
+import cn.xrkj.controller.service.ItemService;
 import org.springframework.stereotype.Service;
 
 @Service
