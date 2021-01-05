@@ -4,40 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>用户登陆</title>
-    <link  rel="stylesheet" href="lib/layui-v2.5.6/css/layui.css"/>
-    <script type="text/javascript" src="lib/jquery-3.4.1/jquery-3.4.1.js"/>
-    <script type="text/javascript" src="lib/layui-v2.5.6/layui.js"/>
+    <link rel="stylesheet" href="lib/layui-v2.5.6/css/layui.css"/>
+    <script type="text/javascript" src="lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="lib/layui-v2.5.6/layui.js"></script>
+
+    <style>
+        body {
+            background: url("img/login_bg.jpg");
+        }
+
+        .login-index {
+            width: 420px;
+            height: 245px;
+            border: 1px rgb(240, 243, 244) solid;
+            margin: 180px auto;
+            background-color: rgb(240, 243, 244);
+        }
+
+        .login-index form {
+            margin: 20px 55px;
+
+        }
+
+        .login-index h4 {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 15px;
+            color: rgb(0, 166, 247);
+            font-family: 微软雅黑;
+        }
+
+    </style>
 </head>
 
-<!--
-<style rel="stylesheet">
-.login-index{width:400px;height: 500px;border: 1px solid cornflowerblue; margin: 50px auto;}
-</style>
--->
-
 <script type="text/javascript">
-    //一般直接写在一个js文件中
-    layui.use(['layer', 'form'], function(){
-        var layer = layui.layer
-        var form = layui.form;
-        layer.msg('Hello World');
+    $(document).ready(function () {
+        layui.use(['layer', 'form'], function () {
+            var layer = layui.layer
+            var form = layui.form;
+            form.on("submit(*)", function (data) {
+                alert("ok");
+            })
+        });
     });
+
 </script>
 
 <body>
 <div class="login-index">
+    <h4>后台管理系统</h4>
     <form class="layui-form layui-form-pane" action="">
         <div class="layui-form-item">
-            <label class="layui-form-label">姓名：</label>
+            <label class="layui-form-label" for="userName" style="background-color: rgb(221, 225, 230)">姓名：</label>
             <div class="layui-input-inline">
-                <input type="text" name="userName" autocomplete="off" placeholder="请输入用户名" class="layui-input">
+                <input type="text" name="userName" autocomplete="off" placeholder="请输入用户名" class="layui-input"
+                       id="userName">
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">密码：</label>
+            <label class="layui-form-label" for="password" style="background-color: rgb(221, 225, 230)">密码：</label>
             <div class="layui-input-inline">
-               <input type="text" name="userName" autocomplete="off" placeholder="请输入密码" class="layui-input">
+                <input type="password" name="password" id="password" placeholder="请输入密码" class="layui-input">
             </div>
+        </div>
+        <div style="width: 296px; margin: 0;">
+            <button type="button" class="layui-btn layui-btn-fluid">立即登陆</button>
         </div>
     </form>
 </div>
